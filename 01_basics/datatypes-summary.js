@@ -18,6 +18,12 @@ console.log(id == anotherId);
 
 //const BigNumber = 54752394213743224n
 
+
+
+// Reference (Non Primitive)
+
+// Arrays, Objects
+
 const heros = ["shaktiman", "naagraj", "doga"];
 
 let myObj = {
@@ -35,10 +41,3 @@ console.log(typeof outsideTemp);
 
 console.log(typeof heros);
 
-
-
-
-
-// Reference (Non Primitive)
-
-// Arrays, Objects

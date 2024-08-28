@@ -22,7 +22,7 @@ console.log(id == anotherId);
 
 // Reference (Non Primitive)
 
-// Arrays, Objects
+// Arrays, Objects , Functions
 
 const heros = ["shaktiman", "naagraj", "doga"];
 
@@ -40,4 +40,43 @@ const myFunction = function(){
 console.log(typeof outsideTemp);
 
 console.log(typeof heros);
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+
+// Stack(Primitive), Heap(Non-Primitive)
+
+let myYoutubeName = "hitheshchoudharydotcom"
+
+let anotherName = myYoutubeName
+anotherName = "chaiaurcode"
+
+//console.log(anotherName);
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+//console.log(userOne.email);
+
+let userTwo = userOne
+userTwo.email = "swaroop@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
 

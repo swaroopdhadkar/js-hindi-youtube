@@ -5,6 +5,7 @@
 
 const score = 100
 const scoreValue = 100.3
+let str1 = "Swaroop"
 
 const isLoggedIn = false
 const outsideTemp = null
@@ -14,9 +15,9 @@ let userEmail;
 const id = Symbol("123")
 const anotherId = Symbol("123")
 
-console.log(id == anotherId);
+//console.log(id == anotherId);
 
-//const BigNumber = 54752394213743224n
+const BigNumber = 54752394213743224n
 
 
 
@@ -37,9 +38,9 @@ const myFunction = function(){
 }
 
 
-console.log(typeof outsideTemp);
+// console.log(typeof outsideTemp);
 
-console.log(typeof heros);
+// console.log(typeof heros);
 
 
 
@@ -56,8 +57,8 @@ anotherName = "chaiaurcode"
 
 //console.log(anotherName);
 
-console.log(myYoutubeName);
-console.log(anotherName);
+// console.log(myYoutubeName);
+// console.log(anotherName);
 
 
 let userOne = {
@@ -70,10 +71,22 @@ let userOne = {
 let userTwo = userOne
 userTwo.email = "swaroop@google.com"
 
-console.log(userOne.email);
-console.log(userTwo.email);
+// console.log(userOne.email);
+// console.log(userTwo.email);
+
+console.log(typeof id);
 
 
+
+// What does typeof give for the primitive datatypes
+
+// Number    => Number
+// String    => String
+// BigInt    => BigInt
+// Boolean   => Boolean
+// Null      => Object
+// Undefined => Undefined
+// Symbol    => Symbol
 
 
 

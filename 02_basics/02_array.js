@@ -12,7 +12,7 @@ const allheros = marvel_heros.concat(dc_heros)             // Gives a new array 
 
 //console.log(allheros);
 
-const all_new_heros = [...marvel_heros, ...dc_heros]       // Spread operatopr
+const all_new_heros = [...marvel_heros, ...dc_heros]       // Spread operator
 
 console.log(all_new_heros);
 
